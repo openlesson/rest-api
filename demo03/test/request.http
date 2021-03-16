@@ -1,0 +1,11 @@
+GET http://localhost:5000/demo
+
+###
+
+POST http://localhost:5000/demo
+Content-Type: application/json
+
+{
+  "user": "admin",
+  "pass": "qwerty"
+}
