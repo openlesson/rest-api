@@ -1,0 +1,23 @@
+GET http://localhost:5000/demo
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYxNTkzODk1NCwianRpIjoiNDkzMTlmMWUtNDc0Zi00ZTQzLWJiNTMtMTczYmU2M2Q2MmExIiwibmJmIjoxNjE1OTM4OTU0LCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoiYWRtaW4iLCJleHAiOjE2MTU5Mzk4NTR9.ulZp6LMurkKBRNF8JWj9L8wLdVgnnafNOiayIKGbzKY
+
+###
+
+POST http://localhost:5000/demo
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYxNTkzODk1NCwianRpIjoiNDkzMTlmMWUtNDc0Zi00ZTQzLWJiNTMtMTczYmU2M2Q2MmExIiwibmJmIjoxNjE1OTM4OTU0LCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoiYWRtaW4iLCJleHAiOjE2MTU5Mzk4NTR9.ulZp6LMurkKBRNF8JWj9L8wLdVgnnafNOiayIKGbzKY
+
+{
+  "user": "admin",
+  "pass": "qwerty"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "login": "admin",
+  "passw": "qwerty"
+}
